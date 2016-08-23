@@ -1,9 +1,10 @@
+Andrew Cordivari
+github.com/andrewdc92
+
+WHEW!!! This was defintiely a challenge, even though the first one took a long time I felt good that I can read through my solution and understand it line by line, I just skipped to try the birthday challenge since the first one already took me a very long time and got a good start on it, I've realized that word problems with time/geomerty seem to click a bit more for me even though I didn't finish. I did have a hard time focusing during the iterators and since I knew this built upon it I can tell I just need to review the iterator module since the objects made alot of sense. 
+
 # <img src="https://cloud.githubusercontent.com/assets/7833470/10899314/63829980-8188-11e5-8cdd-4ded5bcb6e36.png" height="60"> Javascript Objects - Problem Set
 
-* Please **Fork & Clone** this repo.
-* For each problem, modify the relevant file in the `challenges`folder. We encourage you to *commit often* and push your changes to github.
-* In your forked copy of this readme, add a short (3-5 sentence) reflection about your work to the top in a section titled "Training Reflection".
-* You should include a link your forked repository on your personal website when you complete work.
 
 ## Challenges
 1. [Letter Count](/challenges/letter-count.js)

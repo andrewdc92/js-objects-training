@@ -1,4 +1,12 @@
-/*
+
+
+daysUntilDate
+var birthday = new Date("8/1/1985");
+var today = new Date();
+var years = today.getFullYear() - birthday.getFullYear();
+
+return ((date - today)/(1000*60*60*24));
+}
 
   Create a function `daysUntilDate` that accepts a string (with the format `"mm/dd/yyyy"`) and
   returns the number of days (integer) between today and that date. Please use the built in
@@ -32,5 +40,3 @@
   - To make your output more relevant, can you sort by days remaining (ascending)?
 
 */
-
-// YOUR CODE HERE

@@ -1,10 +1,43 @@
-/*
 
-  Create a function `letterCount` that accepts a string, and finds the number of times each letter
-  occurs in the string. For example, given the word "apple", letterCount("apple") should count all
-  occurrences of the letters "a", "p", "l" and "e" and then return the following output:
+function letterCount (string) {
+  var letterTracker = {};
+  var array = string.split("");
+    array.forEach(function(element) {
 
-  ```javascript
+    // the for loop is not confusing me. shifting to forEach for (var i = 0; i < array.length; i++) {
+    //   var letter = array[i];
+
+  if (letterTracker[element]){
+    letterTracker[element] +=1;
+  } else {
+    letterTracker[element] = 1;
+  }
+
+});
+return letterTracker;
+} // return actually needs to be defined, durr,
+  // ie, all of these functions compile the data in
+  // the object 
+
+
+
+
+
+//   letterCount("apple");
+
+// keys should be letters , ie without the loop,
+// array[i] gets the 'a' in apple with i=0
+
+
+
+
+// function letterCount ()
+//     var string = ("");
+//     function letterCount () {
+//     var arr= [""]
+//
+
+}
   {
     "a": 1,
     "p": 2,
